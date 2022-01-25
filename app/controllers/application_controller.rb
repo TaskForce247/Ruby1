@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
         render html:"hello worrld"
     end
 
+    def goodbye
+        render html:"goodbye worrld"
+    end
+
 end
